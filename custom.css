@@ -1,0 +1,37 @@
+.my-bg-photo {
+  background: url('images/darksky.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.my-bg-photo * {
+  position: relative;
+  z-index: 10;
+}
+
+.my-bg-photo:before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  opacity: .45;
+}
+.banner-logo {
+ position: relative;
+
+}
+
+.box-a {background-color: rgb(192, 127, 127); padding: 10px; border: 3px solid black;}
+
+.my-custom-container {
+  max-width: 800px;
+}
+
+.accordion .btn-link:focus {
+  box-shadow: none;
+}
