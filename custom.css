@@ -1,5 +1,5 @@
 .my-bg-photo {
-  background: url('images/darksky.jpg') no-repeat;
+  background: url('images/snowcanyon-banner.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -19,7 +19,7 @@
   left: 0;
   right: 0;
   background-color: #000;
-  opacity: .45;
+  opacity: .30;
 }
 .banner-logo {
  position: relative;
