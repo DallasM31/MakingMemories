@@ -1,3 +1,10 @@
+
+body {
+  font-family: Tahoma, san-serf;
+  font-size; 87%;
+}
+
+
 .my-bg-photo {
   background: url('images/snowcanyon-banner.jpg') no-repeat;
   background-size: cover;
